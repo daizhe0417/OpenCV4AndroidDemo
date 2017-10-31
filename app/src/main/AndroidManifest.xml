@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="cn.daizhe.opencv4androiddemo">
+          package="cn.daizhe.opencv4androiddemo">
 
     <!-- CAMERA -->
     <!--<uses-permission android:name="android.permission.VIBRATE" />-->
@@ -10,28 +10,42 @@
     <!--<uses-feature android:name="android.hardware.camera.autofocus" />-->
 
     <!--<uses-permission android:name="android.permission.FLASHLIGHT" />-->
-    <supports-screens
-        android:anyDensity="true"
-        android:largeScreens="true"
-        android:normalScreens="true"
-        android:resizeable="false"
-        android:smallScreens="false" />
+    <!--<supports-screens-->
+    <!--android:anyDensity="true"-->
+    <!--android:largeScreens="true"-->
+    <!--android:normalScreens="true"-->
+    <!--android:resizeable="false"-->
+    <!--android:smallScreens="false" />-->
 
-    <uses-permission android:name="android.permission.CAMERA" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!--<uses-permission android:name="android.permission.CAMERA" />-->
+    <!--<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />-->
 
+    <!--<uses-feature-->
+    <!--android:name="android.hardware.camera"-->
+    <!--android:required="false" />-->
+    <!--<uses-feature-->
+    <!--android:name="android.hardware.camera.autofocus"-->
+    <!--android:required="false" />-->
+    <!--<uses-feature-->
+    <!--android:name="android.hardware.camera.front"-->
+    <!--android:required="false" />-->
+    <!--<uses-feature-->
+    <!--android:name="android.hardware.camera.front.autofocus"-->
+    <!--android:required="false" />-->
+
+    <uses-permission android:name="android.permission.CAMERA"/>
     <uses-feature
         android:name="android.hardware.camera"
-        android:required="false" />
+        android:required="false"/>
     <uses-feature
         android:name="android.hardware.camera.autofocus"
-        android:required="false" />
+        android:required="false"/>
     <uses-feature
         android:name="android.hardware.camera.front"
-        android:required="false" />
+        android:required="false"/>
     <uses-feature
         android:name="android.hardware.camera.front.autofocus"
-        android:required="false" />
+        android:required="false"/>
 
     <application
         android:allowBackup="true"
@@ -40,11 +54,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".activity.MainActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
     </application>
