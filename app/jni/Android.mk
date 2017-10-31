@@ -1,0 +1,4 @@
+OPENCV_CAMERA_MODULES:=on
+OPENCV_INSTALL_MODULES:=on
+OPENCV_LIB_TYPE:=SHARED
+OPENCV_ANDROID_SDK := /Users/venice/DL/tools/opencv/OpenCV-android-sdk

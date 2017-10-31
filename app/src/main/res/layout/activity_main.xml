@@ -11,7 +11,7 @@
     <org.opencv.android.JavaCameraView
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:id="@+id/camera_view"
+        android:id="@+id/o4a_camera_view"
         opencv:show_fps="true"
         opencv:camera_id="any"/>
 
